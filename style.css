@@ -77,3 +77,20 @@ h6 {
     text-transform: uppercase;
     cursor: pointer;
 }
+@media (max-width:320px){
+    .main .wish-text{
+        width: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:991px) {
+   .main .wish-text{
+       width: 50%;
+       margin-right: 7px;
+   }
+}
+@media (min-width:992px) and (max-width:1199px) {
+    .main .wish-text{
+        width: 50%;
+        margin-right:9px;
+    }
+}
